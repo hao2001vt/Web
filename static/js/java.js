@@ -39,6 +39,22 @@ function buttonRight() {
 function buttonLeft() {
     Slide('left');
 }
-
 right.addEventListener('click', buttonRight)
 left.addEventListener('click', buttonLeft)
+
+
+
+
+
+// Toggle Navbar Mobile
+
+const buttonNavbar = document.querySelector('.navbar__mobile-control');
+
+buttonNavbar.addEventListener('click',() =>{
+    const banner =document.querySelector('.banner');
+    const navabarMobile =document.querySelector('.navbar__mobile');
+    const header =document.querySelector('.header');
+    navabarMobile.classList.toggle('transform-navbar');
+    banner.classList.toggle('transform-navbar');
+    header.classList.toggle('transform-header');
+})

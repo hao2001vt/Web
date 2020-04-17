@@ -4,30 +4,29 @@
         display: none;
     }
 }
-
-
 /* Tablet */
 @media (max-width:1023px) and (min-width:740px){
-
-}
-
-
+    
+}  
 /* Mobile & Tablet */
 @media (max-width:1023px){
     .navbar{
         display: none;
     }
+    .navbar__mobile{
+        display: flex;
+    }
 }
-
-
-
-@media (max-width:1150px){
-
+@media (min-width:1024px){
+    .transform-header{
+        transform: translateX(0);
+    }
+    .navbar__mobile,
+    .modal__navbar
+    {
+        display: none;
+    }
 }
-
-
-
-
 /* Iphone 5s */
 @media(max-width:360px){
 
