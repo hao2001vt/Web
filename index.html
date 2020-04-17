@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./static/css/grid.css">
     <link rel="stylesheet" href="./static/css/style.css">
     <link rel="stylesheet" href="./static/css/base.css">
+    <link rel="stylesheet" href="./static/css/responsive.css">
     <link rel="stylesheet" href="./static/font/fontawesome/font/css/all.min.css">
     <!-- End Link CSS -->
     <!-- Link Font -->
@@ -22,10 +23,11 @@
 
     <div class="app">
         <div class="header">
+            <input type="checkbox" id="check">
             <div class="grid wide">
                 <div class="navbar display-flex justify-content-space-between align-items-center">
                     <div class="navbar__login display-flex align-items-center">
-                        <a href="#" class="justify-content-center align-items-center"><i
+                        <a href="#" class="justify-content-center align-items-center  display-flex"><i
                                 class="far fa-user"></i>LOGIN</a>
                     </div>
                     <ul class="navbar__list">
@@ -47,23 +49,59 @@
                             <a href="#" class="navbar__item-link">Shop</a>
                         </li>
                         <li class="navbar__list-item">
-                            <a href="#" class="navbar__item-link">Help</a>
+                            <a href="#" class="navbar__item-link">Todolist</a>
                         </li>
                         <li class="navbar__list-item">
                             <a href="#" class="navbar__item-link">contact</a>
                         </li>
                     </ul>
                     <div class="navbar__login display-flex align-items-center">
-                        <a href="#" class="justify-content-center align-items-center"><i
-                                class="far fa-user"></i>LOGIN</a>
+                        <a href="#" class="justify-content-center align-items-center  display-flex"><i class="fas fa-synagogue"></i>3 ITEMS</a>
+                    </div>
+                </div>
+                <div class="navbar__mobile display-flex justify-content-space-between align-items-center">
+                    <label for="check">
+                        <div class="navbar__mobile-control">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </label>
+                    <div class="navber__mobile-logo">
+                        <a href="#" class="navbar__item-link">
+                            <img src="./static/img/logo (1).png" alt="">
+                        </a>
+                    </div>
+                    <div class="navber__mobile-search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
         </div>
         <div class="banner">
-            <span class="overlay"></span>
+            <ul class="list_img">
+                <li class="img img-one img-see">
+    
+                </li>
+                <li class="img img-two">
+    
+                </li>
+                <li class="img img-three">
+    
+                </li>
+            </ul>
+            <span class="overlay">
+                <ul class="button">
+                    <li class="left"><i class="fas fa-chevron-left"></i></li>
+                    <li class="right"><i class="fas fa-chevron-right"></i> </li>
+                </ul>
+                <div class="overlay__content">
+                    <h1 class="overley__content-title">Xuất bản đam mê của bạn theo cách của bạn</h1>
+                    <p class="overlay__content-describle">Tạo blog độc đáo và tuyệt đẹp. Thật dễ dàng và miễn phí.</p>
+                    <button class="overlay__conten-button"> Tạo Blog của bạn</button>
+                </div>
+            </span>
         </div>
     </div>
+    <script src="./static/js/java.js"></script>
 </body>
 
 </html>
