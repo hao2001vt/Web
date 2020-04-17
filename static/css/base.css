@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+:root{
+    --text-color : #ffffff;
+    --navbar-hieght : 80px;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.display-flex {
+    display: flex;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
